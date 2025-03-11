@@ -1,14 +1,8 @@
 package com.mycompany.app;
-
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest
-{
+public class AppTest {
     @Test
     public void testAppConstructor() {
         App app1 = new App();
@@ -17,8 +11,7 @@ public class AppTest
     }
 
     @Test
-    public void testAppMessage()
-    {
+    public void testAppMessage() {
         App app = new App();
         assertEquals("Hello World!", app.getMessage());
     }
