@@ -1,3 +1,5 @@
+//test pour utiliser le plugin junit de maven
+
 package com.mycompany.app;
 
 import org.junit.jupiter.api.Test;
