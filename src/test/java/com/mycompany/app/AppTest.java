@@ -1,4 +1,4 @@
-package com.mycompany.app;
+ckage com.mycompany.app;
 
 import org.junit.jupiter.api.Test;
 
@@ -20,6 +20,6 @@ public class AppTest
     public void testAppMessage()
     {
         App app = new App();
-        assertEquals("Hello World! Erreur", app.getMessage());
+        assertEquals("Hello World!", app.getMessage());
     }
 }
